@@ -1,11 +1,15 @@
-:root{
-    --main-color:#ec4755;
-    --white-color:#fff;
-    --black-color:#000;
-    --gray-color:gray;
+:root {
+  --main-color: #ec4755;
+  --white-color: #fff;
+  --black-color: #000;
+  --gray-color: gray;
 }
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-} 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-brand-image {
+  background: url(./img/header.jpg);
+}
