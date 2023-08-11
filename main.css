@@ -40,4 +40,14 @@
 
 .nav-brand-image {
   background: url(./img/header.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
+}
+
+@media (max-width: 768px) {
+  .nav-brand-image {
+    clip-path: none;
+  }
 }
