@@ -9,6 +9,34 @@
   margin: 0;
   box-sizing: border-box;
 }
+.header-container {
+  height: 520px;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+}
+.brand-logo {
+  color: var(--main-color);
+  font-size: 30px;
+}
+
+.nav-desktop {
+  display: flex;
+  list-style: none;
+}
+.nav-desktop a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: var(--gray-color);
+}
+.nav-desktop a:hover {
+  color: var(--main-color);
+}
 
 .nav-brand-image {
   background: url(./img/header.jpg);
