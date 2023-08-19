@@ -86,9 +86,9 @@
   color: var(--main-color);
 }
 .nav-brand-image {
-  background: url(./img/header.jpg);
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
+    background: url("./img/header.jpg");
   background-size: cover;
   clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
 }
@@ -98,3 +98,25 @@
     clip-path: none;
   }
 }
+
+/* ============= Maintenance notice starts here ===================== */
+.maintenance-notice{
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+.maintenance-notice h1{
+  line-height: 1.4;
+}
+.maintenance-notice h1 span{
+  display: inline-block;
+  padding: 4px 3px;
+  background: var(--main-color);
+  color: var(--white-color);
+}
+.maintenace-img img{
+  width: 100%;
+  height: 100%;
+}
+/* ============= Maintenance notice ends here ===================== */
